@@ -1,0 +1,18 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#board {
+    /* background-color: skyblue; */
+    background-image: url("./flappybirdbg.png");
+}
+
+#board {
+    width: 100%;        /* fills screen width */
+    height: auto;       /* keeps aspect ratio */
+    max-width: 360px;   /* prevents stretching too wide */
+    display: block;
+    margin: auto;
+    touch-action: none; /* prevents scrolling on mobile */
+}
